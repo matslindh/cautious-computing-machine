@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "cautious-computing-machine"
+version = "0.1.0"
+description = ""
+authors = ["Mats Lindh <mats@lindh.no>"]
+readme = "README.md"
+packages = [{include = "cautious_computing_machine"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pytest = "^7.4.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
